@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 * {
     margin: 0%;
     padding: 0;
@@ -11,6 +13,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -30,6 +33,7 @@ body {
     justify-content: space-between;
     width: 100%;
     padding: 10px;
+
 
 }
 
@@ -81,10 +85,11 @@ p {
     background: linear-gradient(150deg, #cf0672, #f73c99);
     color: #fff;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .button-hireme:hover {
-    background:linear-gradient(150deg, #98FB98, #cf0672,);
+    background:linear-gradient(150deg, #ff02ab, #cf0672);
 }
 
 hr {
@@ -93,12 +98,12 @@ hr {
 
 .social-buttons {
     display: flex;
+    margin-top: 10px;
     justify-content: space-between;
     width: 90%;
 }
 
 .button-social {
-    margin: 10px;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -109,4 +114,25 @@ button {
     height: 50px;
     border-radius: 50%;
     border: none;
+}
+
+.button-instagram {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.button-github {
+    background:linear-gradient(45deg, #405de6, #000000, #3e155a);
+}
+
+.button-linkedin {
+    background:linear-gradient(45deg, #0789cf, #0fa6dd, #ebe3e3);
+}
+
+.button-social .fa {
+    font-size: 29px;
+}
+
+.seguidores {
+    color: #fff;
+    font-size: 20px;
 }
